@@ -1,0 +1,65 @@
+{
+	"populate": 
+	{
+		"spider_tree": {
+			"distribution": "uniform",
+			"follow-terrain": "true",
+			"generator": {
+				"type": "stalactite",
+				"block": "minecraft:web",
+				"material": [
+					{ 
+						"name": "minecraft:leaves"
+					},
+					{ 
+						"name": "minecraft:leaves2",
+						"metadata": 1
+					}
+				],
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					},
+					{ 
+						"name": "minecraft:leaves"
+					},
+					{ 
+						"name": "minecraft:leaves2",
+						"metadata": 1
+					}
+				],
+				"smooth": false,
+				"fat": false,
+				"min-height": 2,
+				"height-variance": 1,
+				"height-mod": 2,
+				"gen-size": 1,
+				"size-variance": 1
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 60,
+			"max-height": 120,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"roofed_forest"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": 
+				[
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

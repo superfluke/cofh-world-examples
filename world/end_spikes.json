@@ -1,0 +1,40 @@
+{
+	"populate": 
+	{
+		"end_spikes": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "spike",
+				"block": [
+					{
+						"name": "minecraft:obsidian",
+						"weight": 100
+					}
+				],
+				"min-height": 12,
+				"size-variance": 2,
+				"height-variance": 8,
+				"large-spikes": true,
+				"large-spike-chance": 3,
+				"large-spike-filler-size": 2,
+				"material": [
+					"minecraft:end_stone",
+					"minecraft:air"
+				],
+				"cluster-size": 8
+			},
+			"cluster-count": 1,
+			"chunk-chance": 4,
+			"min-height": 40,
+			"max-height": 99,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		}
+	}
+}

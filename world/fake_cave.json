@@ -1,0 +1,35 @@
+{
+	"populate": {
+		"end_cave": {
+			"distribution": "fractal",
+			"generator": {
+				"type": "large-vein",
+				"block": "minecraft:air",
+				"sparse": false,
+				"cluster-size": 85,
+				"material": [
+					"minecraft:end_stone",
+					"minecraft:air"
+				]
+			},
+			"chunk-chance": 3,
+			"cluster-count": 3,
+			"vein-height": 35,
+			"vein-diameter": 15,
+			"vertical-density": 15,
+			"horizontal-density": 70,
+			"min-height": 20,
+			"retrogen": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "END"
+					}
+				]
+			},
+			"dimension": "all"
+		}
+	}
+}

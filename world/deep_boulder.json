@@ -1,0 +1,38 @@
+{
+	"populate": {
+        "deep_boulder": {
+
+			"distribution": "gaussian",
+			"generator": {
+                "type": "boulder",
+                "block": [
+					{
+						"name": "quartz_ore",
+						"weight": 20
+					},
+					{
+						"name": "netherrack",
+						"weight": 80
+					}
+                ],
+				"diameter": 1,
+                "size-variance": 0,
+				"count-variance": 1,
+                "count": 1
+			},
+            "chunk-chance": 1,
+			"cluster-count": 1,
+			"center-height": 7,
+			"spread": 3,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"populate": {
+		"frosty_ore": {
+			"distribution": "underfluid",
+			"fluid": "cryotheum",
+			"generator": [
+				{
+					"weight": 35,
+					"type": "cluster",
+					"block": "minecraft:diamond_ore",
+					"material": [
+						"minecraft:dirt",
+						"minecraft:grass",
+						"minecraft:sand",
+						"minecraft:gravel"
+					],
+					"cluster-size": 2
+				},
+				{
+					"weight": 65,
+					"type": "cluster",
+					"block": "minecraft:lapis_ore",
+					"material": [
+						"minecraft:dirt",
+						"minecraft:grass",
+						"minecraft:sand",
+						"minecraft:gravel"
+					],
+					"cluster-size": 2
+				}
+			],
+            "chunk-chance": 1,
+			"cluster-count": 3,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "SNOWY"
+					},
+					{
+						"type": "dictionary",
+						"entry": "FROZEN"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	}
+}

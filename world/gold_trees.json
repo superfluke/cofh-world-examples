@@ -1,0 +1,23 @@
+{
+	"populate": {
+		"gold_tree": {
+			"distribution": "decoration",
+			"generator": {
+				"type": "small-tree",
+				"leaves": "minecraft:gold_block",
+				"minHeight": 10, 
+				"heightVariance": 5,
+				"block": "minecraft:log"
+			},
+			"cluster-count": 1,
+			"chunkChance": 1,
+			"retrogen": false,
+			"biome": "all",
+			"dimensionRestriction": "blacklist",
+			"dimensions": [
+				-1,
+				1
+			]
+		}
+	}
+}

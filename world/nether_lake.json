@@ -1,0 +1,30 @@
+{
+	"populate": {
+		"end_lake": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "lake",
+				"block": "thermalfoundation:fluid_pyrotheum",
+				"material": "minecraft:netherrack",
+				"use-material": true,
+				"outline-block": [
+					"minecraft:nether_wart_block",
+					"minecraft:magma"
+				]
+			},
+			"cluster-count": 1,
+			"chunk-chance": 3,
+			"min-height": 10,
+			"max-height": 120,
+			"follow-terrain": true,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		}
+	}
+}

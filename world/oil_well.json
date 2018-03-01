@@ -1,0 +1,50 @@
+{
+	"populate": 
+	{
+		"oil_well": {
+			"distribution": "surface",
+			"follow-terrain": "true",
+			"generator": {
+				"type": "stalagmite",
+				"block": "thermalfoundation:fluid_crude_oil",
+				"material": [
+					"minecraft:grass",
+					"minecraft:stone",
+					"minecraft:sand"
+				],
+				"gen-body": "minecraft:air",
+				"smooth": false,
+				"fat": false,
+				"min-height": 16,
+				"height-variance": 6,
+				"height-mod": 2,
+				"gen-size": 0,
+				"size-variance": 4
+			},
+			"cluster-count": 1,
+			"chunk-chance": 5,
+			"retrogen": false,
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "OCEAN"
+					},
+					{
+						"type": "dictionary",
+						"entry": "SNOWY"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": 
+				[
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

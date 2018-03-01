@@ -1,0 +1,42 @@
+{
+	"populate": {
+		"petro_vein": {
+			"distribution": "surface",
+			"follow-terrain": "true",
+			"generator": {
+				"type": "large-vein",
+				"block": "thermalfoundation:fluid_petrotheum",
+				"material": [
+					"minecraft:sand",
+					"minecraft:sandstone"
+				],
+				"sparse": false,
+				"cluster-size": 15				
+			},
+			"material": [
+					"minecraft:sand",
+					"minecraft:sandstone"
+			],
+			"chunk-chance": 6,
+			"cluster-count": 1,
+			"vein-height": 10,
+			"vein-diameter": 15,
+			"vertical-density": 3,
+			"horizontal-density": 7,
+			"min-height": 40,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"desert"
+						]
+					}
+				]
+			},
+			"dimension": "all"
+		}
+	}
+}

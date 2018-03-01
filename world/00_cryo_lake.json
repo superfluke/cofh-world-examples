@@ -1,0 +1,53 @@
+{
+	"populate": {
+		"cryo_lakes": {
+			"distribution": "surface",
+			"follow-terrain": true,
+			"generator": {
+				"type": "lake",
+				"block": "thermalfoundation:fluid_cryotheum",
+				"material": [
+					"minecraft:dirt",
+					"minecraft:grass",
+					"minecraft:gravel",
+					"minecraft:sand",
+					"minecraft:snow",
+					"minecraft:snow_layer"
+				],
+				"use-material": true
+			},
+			"cluster-count": 2,
+			"chunk-chance": 4,
+			"min-height": 50,
+			"max-height": 150,
+			"material": [
+					"minecraft:dirt",
+					"minecraft:grass",
+					"minecraft:gravel",
+					"minecraft:sand",
+					"minecraft:snow",
+					"minecraft:snow_layer"
+			],
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "SNOWY"
+					},
+					{
+						"type": "dictionary",
+						"entry": "FROZEN"
+					}
+				]
+			},
+			"retrogen": false,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	}
+}

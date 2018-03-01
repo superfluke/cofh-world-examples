@@ -1,0 +1,86 @@
+{
+	"populate": 
+	{
+		"sand_spikes": {
+			"distribution": "surface",
+			"follow-terrain": "true",
+			"generator": [
+				{
+					"weight": 50,
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "minecraft:sandstone",
+							"weight": 50
+						},
+						{
+							"name": "minecraft:sandstone",
+							"metadata": 2,
+							"weight": 40
+						},
+						{
+							"name": "minecraft:sandstone",
+							"metadata": 1,
+							"weight": 10
+						}
+					],
+					"material": [
+						"minecraft:sandstone",
+						"minecraft:sand"
+					],
+					"gen-body": "minecraft:air",
+					"smooth": true,
+					"fat": false,
+					"min-height": 10,
+					"height-variance": 6,
+					"height-mod": 3,
+					"gen-size": 0,
+					"size-variance": 2
+				},
+				{
+					"weight": 30,
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "minecraft:red_sandstone",
+							"weight": 80
+						},
+						{
+							"name": "minecraft:obsidian",
+							"weight": 10
+						},
+						{
+							"name": "minecraft:magma",
+							"weight": 10
+						}
+					],
+					"material": [
+						"minecraft:sandstone",
+						"minecraft:sand"
+					],
+					"gen-body": "minecraft:air",
+					"smooth": false,
+					"fat": true,
+					"min-height": 10,
+					"height-variance": 6,
+					"height-mod": 3,
+					"gen-size": 0,
+					"size-variance": 2
+				}
+			],
+			"cluster-count": 1,
+			"chunk-chance": 4,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "SANDY"
+					}
+				]
+			},
+			"dimension": "all"
+		}
+	}
+}

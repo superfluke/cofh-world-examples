@@ -1,0 +1,496 @@
+{
+	"populate": {
+        "coal_layer": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"block": "minecraft:coal_ore",
+				"material": "minecraft:stone",
+				"radius": 5,
+				"height": 1,
+				"slim": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 60,
+			"max-height": 65,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"coal_div": {
+			"distribution": "uniform",
+			"generator": [
+				{
+					"type": "plate",
+					"block": [
+						{
+							"name": "minecraft:stone",
+							"metadata": 1
+						}
+					],
+					"material": "minecraft:stone",
+					"radius": 5,
+					"height": 1,
+				},
+				{
+					"type": "plate",
+					"block": [
+						{
+							"name": "minecraft:stone",
+							"metadata": 3
+						}
+					],
+					"material": "minecraft:stone",
+					"radius": 5,
+					"height": 1,
+				},
+				{
+					"type": "plate",
+					"block": [
+						{
+							"name": "minecraft:stone",
+							"metadata": 5
+						}
+					],
+					"material": "minecraft:stone",
+					"radius": 5,
+					"height": 1,
+				}
+			],
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 56,
+			"max-height": 56,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"iron_layer": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"block": "minecraft:iron_ore",
+				"material": "minecraft:stone",
+				"radius": 5,
+				"height": 1,
+				"slim": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 50,
+			"max-height": 55,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"iron_div": {
+			"distribution": "uniform",
+			"generator": [
+				{
+					"type": "plate",
+					"block": [
+						{
+							"name": "minecraft:stone",
+							"metadata": 1
+						}
+					],
+					"material": "minecraft:stone",
+					"radius": 5,
+					"height": 1,
+				},
+				{
+					"type": "plate",
+					"block": [
+						{
+							"name": "minecraft:stone",
+							"metadata": 3
+						}
+					],
+					"material": "minecraft:stone",
+					"radius": 5,
+					"height": 1,
+				},
+				{
+					"type": "plate",
+					"block": [
+						{
+							"name": "minecraft:stone",
+							"metadata": 5
+						}
+					],
+					"material": "minecraft:stone",
+					"radius": 5,
+					"height": 1,
+				}
+			],
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 47,
+			"max-height": 47,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"gold_layer": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"block": "minecraft:gold_ore",
+				"material": "minecraft:stone",
+				"radius": 5,
+				"height": 1,
+				"slim": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 41,
+			"max-height": 46,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"gold_div": {
+			"distribution": "uniform",
+			"generator": [
+				{
+					"type": "plate",
+					"block": [
+						{
+							"name": "minecraft:stone",
+							"metadata": 1
+						}
+					],
+					"material": "minecraft:stone",
+					"radius": 5,
+					"height": 1,
+				},
+				{
+					"type": "plate",
+					"block": [
+						{
+							"name": "minecraft:stone",
+							"metadata": 3
+						}
+					],
+					"material": "minecraft:stone",
+					"radius": 5,
+					"height": 1,
+				},
+				{
+					"type": "plate",
+					"block": [
+						{
+							"name": "minecraft:stone",
+							"metadata": 5
+						}
+					],
+					"material": "minecraft:stone",
+					"radius": 5,
+					"height": 1,
+				}
+			],
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 39,
+			"max-height": 39,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"redstone_layer": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"block": "minecraft:redstone_ore",
+				"material": "minecraft:stone",
+				"radius": 5,
+				"height": 1,
+				"slim": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 33,
+			"max-height": 38,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"redstone_div": {
+			"distribution": "uniform",
+			"generator": [
+				{
+					"type": "plate",
+					"block": [
+						{
+							"name": "minecraft:stone",
+							"metadata": 1
+						}
+					],
+					"material": "minecraft:stone",
+					"radius": 5,
+					"height": 1,
+				},
+				{
+					"type": "plate",
+					"block": [
+						{
+							"name": "minecraft:stone",
+							"metadata": 3
+						}
+					],
+					"material": "minecraft:stone",
+					"radius": 5,
+					"height": 1,
+				},
+				{
+					"type": "plate",
+					"block": [
+						{
+							"name": "minecraft:stone",
+							"metadata": 5
+						}
+					],
+					"material": "minecraft:stone",
+					"radius": 5,
+					"height": 1,
+				}
+			],
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 30,
+			"max-height": 30,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"lapis_layer": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"block": "minecraft:lapis_ore",
+				"material": "minecraft:stone",
+				"radius": 5,
+				"height": 1,
+				"slim": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 24,
+			"max-height": 29,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"lapis_div": {
+			"distribution": "uniform",
+			"generator": [
+				{
+					"type": "plate",
+					"block": [
+						{
+							"name": "minecraft:stone",
+							"metadata": 1
+						}
+					],
+					"material": "minecraft:stone",
+					"radius": 5,
+					"height": 1,
+				},
+				{
+					"type": "plate",
+					"block": [
+						{
+							"name": "minecraft:stone",
+							"metadata": 3
+						}
+					],
+					"material": "minecraft:stone",
+					"radius": 5,
+					"height": 1,
+				},
+				{
+					"type": "plate",
+					"block": [
+						{
+							"name": "minecraft:stone",
+							"metadata": 5
+						}
+					],
+					"material": "minecraft:stone",
+					"radius": 5,
+					"height": 1,
+				}
+			],
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 20,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"diamond_layer": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"block": "minecraft:diamond_ore",
+				"material": "minecraft:stone",
+				"radius": 5,
+				"height": 1,
+				"slim": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 14,
+			"max-height": 19,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"diamond_div": {
+			"distribution": "uniform",
+			"generator": [
+				{
+					"type": "plate",
+					"block": [
+						{
+							"name": "minecraft:stone",
+							"metadata": 1
+						}
+					],
+					"material": "minecraft:stone",
+					"radius": 5,
+					"height": 1,
+				},
+				{
+					"type": "plate",
+					"block": [
+						{
+							"name": "minecraft:stone",
+							"metadata": 3
+						}
+					],
+					"material": "minecraft:stone",
+					"radius": 5,
+					"height": 1,
+				},
+				{
+					"type": "plate",
+					"block": [
+						{
+							"name": "minecraft:stone",
+							"metadata": 5
+						}
+					],
+					"material": "minecraft:stone",
+					"radius": 5,
+					"height": 1,
+				}
+			],
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 10,
+			"max-height": 10,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"emerald_layer": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"block": "minecraft:emerald_ore",
+				"material": "minecraft:stone",
+				"radius": 5,
+				"height": 1,
+				"slim": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 4,
+			"max-height": 9,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

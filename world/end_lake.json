@@ -1,0 +1,29 @@
+{
+	"populate": {
+		"end_lake": {
+			"distribution": "surface",
+			"generator": {
+				"type": "lake",
+				"block": "thermalfoundation:fluid_ender",
+				"material": "minecraft:end_stone",
+				"gap-block": "minecraft:end_stone",
+				"use-material": true,
+				"outline-block": "minecraft:end_stone"
+			},
+			"cluster-count": 1,
+			"chunk-chance": 8,
+			"min-height": 40,
+			"max-height": 80,
+			"material": "minecraft:end_stone",
+			"follow-terrain": true,
+			"biome": "all",
+			"retrogen": false,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,49 @@
+{
+	"populate": {
+		"snow_ball": {
+
+			"distribution": "surface",
+			"generator": {
+				"type": "boulder",
+				"block": "snow",
+				"diameter": 2,
+				"size-variance": 2,
+				"count-variance": 1,
+				"count": 1
+			},
+			"chunk-chance": 1,
+			"cluster-count": 1,
+			"min-height": 50,
+			"max-height": 256,
+			"material": [
+				"minecraft:dirt",
+				"minecraft:grass",
+				"minecraft:stone",
+				"minecraft:snow",
+				"minecraft:snow_layer"
+			],
+			"follow-terrain": true,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "FROZEN"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "SNOWY"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}
