@@ -1,0 +1,30 @@
+{
+    "populate": {
+        "Massive Diamond Veins": {
+            "enabled": true,
+            "distribution": "uniform",
+            "min-height": 1,
+            "max-height": 32,
+            "generator": {
+                "type": "large-vein",
+                "cluster-size": 20,
+                "sparse": false,
+                "block": "minecraft:diamond_ore",
+                "material": [
+						"minecraft:coal_ore"
+					]
+            },
+            "cluster-count": 3,
+            "chunk-chance": 1,
+            "retrogen": true,
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        }
+    }
+}
